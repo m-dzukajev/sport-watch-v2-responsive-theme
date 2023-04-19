@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -58,8 +59,8 @@
         </div>
     </section>
 
-        <!--Секция НАШИ ПРЕИМУЩЕСТВА-->
-        <section class="advantages">
+    <!--Секция НАШИ ПРЕИМУЩЕСТВА-->
+    <section class="advantages">
             <div class="container">
                 <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
                 <div class="advantages__wrapper">
@@ -92,12 +93,48 @@
                     </div>
                 </div>
             </div>
-        </section>
+    </section>
 
+    <!--Секция Консультации-->
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                Получите бесплатную консультацию по подбору пульсометра 
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки<br>
+                и мы перезвоним вам в течении 10 минут
+            </div>
+            <form id="consultation-form" class="feed-form" action="#">
+                <input name='name' type="text" placeholder="Ваше имя">
+                <input name='phone' placeholder="Ваш телефон">
+                <input name='email' type="email" placeholder="Ваш E-mail">
 
+                <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+            </form>
+        </div>
+    </section>
 
+    <!--Секция Слайдера-->
+    <div class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/slider/polar-m400-triple.jpg" alt="slider">
+                </div>
+                <div>
+                    <img src="img/slider/watch-big.jpg" alt="slider">
+                </div>
+                <div>
+                    <img src="img/slider/polar-m600-trio-1470174547-vnNI-column-width-inline.jpg" alt="slider">
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-        
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
